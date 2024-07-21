@@ -1,0 +1,20 @@
+{
+  "name": "playground-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.ts",
+  "scripts": {
+    "start": "node src/app.ts",
+    "dev": "nodemon --exec npx ts-node src/app.ts"
+  },
+  "author": "Xelfie",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.11",
+    "nodemon": "^3.1.4",
+    "typescript": "^5.5.3"
+  }
+}
